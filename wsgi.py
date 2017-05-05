@@ -4,6 +4,13 @@ application = Flask(__name__)
 @application.route("/")
 def hello():
     return "Hello World!, how are you?"
+     for v in range (0,3):
+            print(v)
+
+
+
 
 if __name__ == "__main__":
     application.run()
+    
+
