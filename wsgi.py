@@ -3,9 +3,9 @@ application = Flask(__name__)
 
 @application.route("/")
 def hello():
-    return "Hello World!, how are you? My name is Tom"
-     for v in range (0,3):
-            print(v)
+    return "Hello World!, how are you? My name is Tom- how r u"
+#     for v in range (0,3):
+ #           print(v)
 
 
 
